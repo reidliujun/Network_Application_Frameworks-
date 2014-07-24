@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns="urn:booksattr"
+		   targetNamespace="urn:booksattr"
+		   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		   
+  <!-- SIMPLE ELEMENTS -->  
+  <xs:element name="author"      type="xs:string"/>
+  <xs:element name="title"       type="xs:string"/>
+  <xs:element name="genre"       type="xs:string"/>
+  <xs:element name="bookshelf"   type="xs:integer" />
+  <xs:element name="review" type="xs:string"/>
+  <xs:element name="language" >
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+              <xs:enumeration value="English"/>
+              <xs:enumeration value="Finnish"/>
+              <xs:enumeration value="Other languages"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+  
+  <xs:element name="npages">
+	      <xs:simpleType>
+	        <xs:restriction base="xs:positiveInteger">
+	         <xs:maxExclusive value="2000"/>
+	        </xs:restriction>
+	       </xs:simpleType>
+      </xs:element>
+      
+  <xs:element name="resource">
+      	<xs:simpleType>
+          <xs:restriction base="xs:string">
+              <xs:enumeration value="CD"/>
+              <xs:enumeration value="MAPS"/>
+              <xs:enumeration value="NO"/>
+          </xs:restriction>
+        </xs:simpleType>
+     </xs:element>
+   
+   
+   <xs:complexType name="BookForm">
+    <xs:sequence>
+      <xs:element ref="author"/>
+      <xs:element ref="title"/>
+      <xs:element ref="genre"/>
+      <xs:element ref="bookshelf"/>
+      <xs:element ref="language"/>
+      <xs:element ref="npages"/>
+      <xs:element ref="resource"/>
+      <xs:element ref="review"/>
+    </xs:sequence>
+    <xs:attribute name="id"   type="xs:string"/>
+  </xs:complexType>
+  
+</xs:schema>

@@ -1,0 +1,41 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">NAF Assig3</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+	<string name="url_text">This is the url text: %1d</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="show_button">Click to view the txt file</string>
+    <string name="show_image">Click to view the Image</string>
+    <string name="show_weather">Get weather information</string>
+    <string name="show_search">Search</string>
+    <string name="img_weather">Weather Location</string>
+    <string name="woeid">Enter WOEID:</string>
+    <string name="hsl">Please Log in to use the service</string>
+    <string name="word">Enter a search word:</string>
+    <string name="show_text">This tab shows an image from the server</string>
+    <string name="from_location">From:</string>
+    <string name="to_location">To:</string>
+    <string name="check_route">Check Route!</string>
+    <string name="add_calendar">Add to Calendar!</string>
+    <string name="load_interstitial">Load Interstitial</string>
+    <string name="interstitial_not_ready">Interstitial Not Ready</string>
+    <string name="app_id">221804518022167</string>
+</resources>

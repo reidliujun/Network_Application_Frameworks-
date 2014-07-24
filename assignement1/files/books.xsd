@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="urn:books"
+            xmlns:bks="urn:booksattr"
+            xmlns="urn:books"
+            elementFormDefault="qualified">
+  <xs:import namespace="urn:booksattr" schemaLocation="booksattr.xsd"/>  
+  
+  <!-- Definition of "book" by using booksattr namespace -->  
+  <xs:element name="books">
+   <xs:complexType>
+    <xs:sequence>
+      <xs:element name="book" 
+                  type="bks:BookForm" 
+                  minOccurs="0" 
+                  maxOccurs="unbounded"/>
+      </xs:sequence>
+  </xs:complexType>
+  </xs:element>
+</xs:schema>

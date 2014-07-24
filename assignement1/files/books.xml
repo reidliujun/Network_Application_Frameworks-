@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><x:books xmlns:x="urn:books" xmlns="urn:books" xmlns:bks="urn:booksattr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:books books.xsd              urn:booksattr booksattr.xsd">
+      
+   <book id="bk001">
+      <bks:author>Hightower, Kim</bks:author>
+      <bks:title>The First Book</bks:title>
+      <bks:genre>Fiction</bks:genre>
+      <bks:bookshelf>1</bks:bookshelf>
+      <bks:language>English</bks:language>      
+      <bks:npages>100</bks:npages>
+      <bks:resource>CD</bks:resource>
+      <bks:review>An amazing story of nothing.</bks:review>
+   </book>
+
+   <book id="bk002">
+      <bks:author>Nagata, Suanne</bks:author>
+      <bks:title>Becoming Somebody</bks:title>
+      <bks:genre>Biography</bks:genre>
+      <bks:bookshelf>1</bks:bookshelf>
+      <bks:language>Finnish</bks:language>
+      <bks:npages>200</bks:npages>
+      <bks:resource>MAPS</bks:resource>
+      <bks:review>A masterpiece of the fine art of gossiping.</bks:review>
+   </book>
+   
+   
+<book id="bk004">
+      <bks:author>Geoge, Kim</bks:author>
+      <bks:title>The First Book</bks:title>
+      <bks:genre>Fiction</bks:genre>
+      <bks:bookshelf>1</bks:bookshelf>
+      <bks:language>English</bks:language>      
+      <bks:npages>100</bks:npages>
+      <bks:resource>CD</bks:resource>
+      <bks:review>An amazing story of nothing.</bks:review>
+   </book></x:books>

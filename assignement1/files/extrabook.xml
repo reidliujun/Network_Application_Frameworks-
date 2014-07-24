@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:books xmlns:x="urn:books"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="urn:books"
+      xmlns:bks="urn:booksattr"
+      xsi:schemaLocation="urn:books books.xsd
+      					  urn:booksattr booksattr.xsd">
+	<book id="bk004">
+      <bks:author>Geoge, Kim</bks:author>
+      <bks:title>The Second Book</bks:title>
+      <bks:genre>Fiction</bks:genre>
+      <bks:bookshelf>2</bks:bookshelf>
+      <bks:language>English</bks:language>      
+      <bks:npages>150</bks:npages>
+      <bks:resource>CD</bks:resource>
+      <bks:review>The second part of an amazing story.</bks:review>
+   </book>
+
+   <book id="bk005">
+      <bks:author>Austen, Jane</bks:author>
+      <bks:title>Pride and Prejuice</bks:title>
+      <bks:genre>Novel</bks:genre>
+      <bks:bookshelf>1</bks:bookshelf>
+      <bks:language>Finnish</bks:language>
+      <bks:npages>200</bks:npages>
+      <bks:resource>MAPS</bks:resource>
+      <bks:review>A romantic story.</bks:review>
+   </book>
+   
+   <book id="bk006">
+      <bks:author>Geoge, Bruce</bks:author>
+      <bks:title>The Poet's First Poem</bks:title>
+      <bks:genre>Poetry</bks:genre>
+      <bks:bookshelf>2</bks:bookshelf>
+      <bks:language>Other languages</bks:language>
+      <bks:npages>300</bks:npages>
+      <bks:resource>NO</bks:resource>
+      <bks:review>The least poetic poems of the decade.</bks:review>
+   </book>
+   
+</x:books>

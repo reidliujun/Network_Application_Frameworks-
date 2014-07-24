@@ -1,0 +1,12 @@
+{
+  "cols": [
+        {"id":"","label":"Mobile Platform","pattern":"","type":"string"},
+        {"id":"","label":"Percentage","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Android 8","f":null},{"v":3,"f":null}]},
+        {"c":[{"v":"IOS","f":null},{"v":2,"f":null}]},
+        {"c":[{"v":"Windows Phone","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Symbian","f":null},{"v":1,"f":null}]}
+      ]
+}
